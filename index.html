@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "assets/quiz.css">
     <title>Quiz Time!</title>
 </head>
 <body>
-    
+    <p id="high-scores" class="display-prefix">
+        <a href="/highscores.html"> High Scores
+        </a>
+    </p>
+    <div class="quiz-container">
+       <div id="quiz"></div> 
+    </div>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+    <div id="countdownTimer">
+        <h2>Timer</h2>
+        <button id="start">Start</button>
+        <h2 id="countdown"></h2>
+    </div>
+
+    <script src="assets/quiz.js"></script>
+    <!-- <script src="assets/Questions.js"></script> -->
 </body>
 </html>
+
+
+<!-- <div class="container">
+    <div id="game" class="justify-center flex-column">
+        <div id="display">
+            <div class="display-item">
+                <p id="high-scores" class="display-prefix">
+                    <a href="/highscores.html"> High Scores
+                    </a>
+                </p>
+            </div>
+            <div class="display-item">
+                <p class="display-prefix">
+                    Time:
+                </p>
+                <h1 class="display-main-text" id="time">
+                    60
+                </h1>
+            </div>
+        </div>
+        <h1 id="question">Are You Smarter Than a CS Major?</h1>
+        <div class="choice-container">
+            <p class="choice-prefix">1</p>
+            <p class="choice-text" data-number="1">Choice</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">2</p>
+            <p class="choice-text" data-number="2">Choice</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">3</p>
+            <p class="choice-text" data-number="3">Choice</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">4</p>
+            <p class="choice-text" data-number="4">Choice</p>
+        </div>
+    </div>
+</div> -->
